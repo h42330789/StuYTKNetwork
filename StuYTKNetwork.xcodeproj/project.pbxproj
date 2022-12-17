@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116AE4447276020446F9788D /* Pods_StuYTKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D275F74CEF6C64CAC7E4543 /* Pods_StuYTKNetwork.framework */; };
+		57166AD6294B1E040003DBD1 /* LoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 57166AD5294B1E040003DBD1 /* LoginApi.m */; };
+		57818DD5294AB24A003CFCF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DD4294AB24A003CFCF8 /* AppDelegate.m */; };
+		57818DD8294AB24A003CFCF8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DD7294AB24A003CFCF8 /* SceneDelegate.m */; };
+		57818DDB294AB24A003CFCF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DDA294AB24A003CFCF8 /* ViewController.m */; };
+		57818DDE294AB24A003CFCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57818DDC294AB24A003CFCF8 /* Main.storyboard */; };
+		57818DE0294AB24A003CFCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57818DDF294AB24A003CFCF8 /* Assets.xcassets */; };
+		57818DE3294AB24A003CFCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57818DE1294AB24A003CFCF8 /* LaunchScreen.storyboard */; };
+		57818DE6294AB24A003CFCF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DE5294AB24A003CFCF8 /* main.m */; };
+		57818DF0294AB24A003CFCF8 /* StuYTKNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DEF294AB24A003CFCF8 /* StuYTKNetworkTests.m */; };
+		57818DFA294AB24A003CFCF8 /* StuYTKNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DF9294AB24A003CFCF8 /* StuYTKNetworkUITests.m */; };
+		57818DFC294AB24A003CFCF8 /* StuYTKNetworkUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818DFB294AB24A003CFCF8 /* StuYTKNetworkUITestsLaunchTests.m */; };
+		57818E0E294B084C003CFCF8 /* MyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57818E0D294B084C003CFCF8 /* MyRequest.m */; };
+		57A6BEC3294DA1A500A1AFA4 /* WebServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6BEC2294DA1A500A1AFA4 /* WebServerManager.m */; };
+		85D48D24B5AF4849CDC94E0A /* Pods_StuYTKNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491537D7AFD2E7538C85C082 /* Pods_StuYTKNetworkTests.framework */; };
+		CA25441C46E1BD5CEDE62C1E /* Pods_StuYTKNetwork_StuYTKNetworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCA3CA8D13F8B8C65C6860B /* Pods_StuYTKNetwork_StuYTKNetworkUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57818DEC294AB24A003CFCF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57818DC8294AB24A003CFCF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57818DCF294AB24A003CFCF8;
+			remoteInfo = StuYTKNetwork;
+		};
+		57818DF6294AB24A003CFCF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57818DC8294AB24A003CFCF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57818DCF294AB24A003CFCF8;
+			remoteInfo = StuYTKNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083D533B4A301F4A032DB354 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetwork-StuYTKNetworkUITests.release.xcconfig"; path = "Target Support Files/Pods-StuYTKNetwork-StuYTKNetworkUITests/Pods-StuYTKNetwork-StuYTKNetworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FCA3CA8D13F8B8C65C6860B /* Pods_StuYTKNetwork_StuYTKNetworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuYTKNetwork_StuYTKNetworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EED928C3EBF6D7CA6B7052 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetwork-StuYTKNetworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-StuYTKNetwork-StuYTKNetworkUITests/Pods-StuYTKNetwork-StuYTKNetworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		491537D7AFD2E7538C85C082 /* Pods_StuYTKNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuYTKNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57166AD4294B1E040003DBD1 /* LoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginApi.h; sourceTree = "<group>"; };
+		57166AD5294B1E040003DBD1 /* LoginApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginApi.m; sourceTree = "<group>"; };
+		57818DD0294AB24A003CFCF8 /* StuYTKNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuYTKNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57818DD3294AB24A003CFCF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57818DD4294AB24A003CFCF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57818DD6294AB24A003CFCF8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		57818DD7294AB24A003CFCF8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		57818DD9294AB24A003CFCF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57818DDA294AB24A003CFCF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57818DDD294AB24A003CFCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57818DDF294AB24A003CFCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57818DE2294AB24A003CFCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57818DE4294AB24A003CFCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57818DE5294AB24A003CFCF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57818DEB294AB24A003CFCF8 /* StuYTKNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuYTKNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57818DEF294AB24A003CFCF8 /* StuYTKNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StuYTKNetworkTests.m; sourceTree = "<group>"; };
+		57818DF5294AB24A003CFCF8 /* StuYTKNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuYTKNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57818DF9294AB24A003CFCF8 /* StuYTKNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StuYTKNetworkUITests.m; sourceTree = "<group>"; };
+		57818DFB294AB24A003CFCF8 /* StuYTKNetworkUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StuYTKNetworkUITestsLaunchTests.m; sourceTree = "<group>"; };
+		57818E0C294B084C003CFCF8 /* MyRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRequest.h; sourceTree = "<group>"; };
+		57818E0D294B084C003CFCF8 /* MyRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRequest.m; sourceTree = "<group>"; };
+		57A6BEC1294DA1A500A1AFA4 /* WebServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServerManager.h; sourceTree = "<group>"; };
+		57A6BEC2294DA1A500A1AFA4 /* WebServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServerManager.m; sourceTree = "<group>"; };
+		5D275F74CEF6C64CAC7E4543 /* Pods_StuYTKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuYTKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867436679A514A0FD041A1B5 /* Pods-StuYTKNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetwork.release.xcconfig"; path = "Target Support Files/Pods-StuYTKNetwork/Pods-StuYTKNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		B583B70CA9B421901FFB543B /* Pods-StuYTKNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetworkTests.release.xcconfig"; path = "Target Support Files/Pods-StuYTKNetworkTests/Pods-StuYTKNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7271EBA584A26D9F679538A /* Pods-StuYTKNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetwork.debug.xcconfig"; path = "Target Support Files/Pods-StuYTKNetwork/Pods-StuYTKNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		D7BA9EA1168B0ACBCDD97D84 /* Pods-StuYTKNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuYTKNetworkTests.debug.xcconfig"; path = "Target Support Files/Pods-StuYTKNetworkTests/Pods-StuYTKNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57818DCD294AB24A003CFCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116AE4447276020446F9788D /* Pods_StuYTKNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DE8294AB24A003CFCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D48D24B5AF4849CDC94E0A /* Pods_StuYTKNetworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DF2294AB24A003CFCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA25441C46E1BD5CEDE62C1E /* Pods_StuYTKNetwork_StuYTKNetworkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C8840263B52F30B4C26B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7271EBA584A26D9F679538A /* Pods-StuYTKNetwork.debug.xcconfig */,
+				867436679A514A0FD041A1B5 /* Pods-StuYTKNetwork.release.xcconfig */,
+				35EED928C3EBF6D7CA6B7052 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.debug.xcconfig */,
+				083D533B4A301F4A032DB354 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.release.xcconfig */,
+				D7BA9EA1168B0ACBCDD97D84 /* Pods-StuYTKNetworkTests.debug.xcconfig */,
+				B583B70CA9B421901FFB543B /* Pods-StuYTKNetworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57818DC7294AB24A003CFCF8 = {
+			isa = PBXGroup;
+			children = (
+				57818DD2294AB24A003CFCF8 /* StuYTKNetwork */,
+				57818DEE294AB24A003CFCF8 /* StuYTKNetworkTests */,
+				57818DF8294AB24A003CFCF8 /* StuYTKNetworkUITests */,
+				57818DD1294AB24A003CFCF8 /* Products */,
+				06C8840263B52F30B4C26B72 /* Pods */,
+				8FC7B439CF05D827B451BB5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57818DD1294AB24A003CFCF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57818DD0294AB24A003CFCF8 /* StuYTKNetwork.app */,
+				57818DEB294AB24A003CFCF8 /* StuYTKNetworkTests.xctest */,
+				57818DF5294AB24A003CFCF8 /* StuYTKNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57818DD2294AB24A003CFCF8 /* StuYTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				57818DE4294AB24A003CFCF8 /* Info.plist */,
+				57A6BEBF294D9FFE00A1AFA4 /* Service */,
+				57A6BEBE294D9FEF00A1AFA4 /* WebServer */,
+				57A6BEC0294DA0B800A1AFA4 /* Other */,
+				57818DDF294AB24A003CFCF8 /* Assets.xcassets */,
+				57818E0B294AB35C003CFCF8 /* codes */,
+			);
+			path = StuYTKNetwork;
+			sourceTree = "<group>";
+		};
+		57818DEE294AB24A003CFCF8 /* StuYTKNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				57818DEF294AB24A003CFCF8 /* StuYTKNetworkTests.m */,
+			);
+			path = StuYTKNetworkTests;
+			sourceTree = "<group>";
+		};
+		57818DF8294AB24A003CFCF8 /* StuYTKNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57818DF9294AB24A003CFCF8 /* StuYTKNetworkUITests.m */,
+				57818DFB294AB24A003CFCF8 /* StuYTKNetworkUITestsLaunchTests.m */,
+			);
+			path = StuYTKNetworkUITests;
+			sourceTree = "<group>";
+		};
+		57818E0B294AB35C003CFCF8 /* codes */ = {
+			isa = PBXGroup;
+			children = (
+				57818DD3294AB24A003CFCF8 /* AppDelegate.h */,
+				57818DD4294AB24A003CFCF8 /* AppDelegate.m */,
+				57818DD9294AB24A003CFCF8 /* ViewController.h */,
+				57818DDA294AB24A003CFCF8 /* ViewController.m */,
+			);
+			path = codes;
+			sourceTree = "<group>";
+		};
+		57A6BEBE294D9FEF00A1AFA4 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				57A6BEC1294DA1A500A1AFA4 /* WebServerManager.h */,
+				57A6BEC2294DA1A500A1AFA4 /* WebServerManager.m */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+		57A6BEBF294D9FFE00A1AFA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				57818E0C294B084C003CFCF8 /* MyRequest.h */,
+				57818E0D294B084C003CFCF8 /* MyRequest.m */,
+				57166AD4294B1E040003DBD1 /* LoginApi.h */,
+				57166AD5294B1E040003DBD1 /* LoginApi.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		57A6BEC0294DA0B800A1AFA4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				57818DE5294AB24A003CFCF8 /* main.m */,
+				57818DD6294AB24A003CFCF8 /* SceneDelegate.h */,
+				57818DD7294AB24A003CFCF8 /* SceneDelegate.m */,
+				57818DDC294AB24A003CFCF8 /* Main.storyboard */,
+				57818DE1294AB24A003CFCF8 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8FC7B439CF05D827B451BB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D275F74CEF6C64CAC7E4543 /* Pods_StuYTKNetwork.framework */,
+				1FCA3CA8D13F8B8C65C6860B /* Pods_StuYTKNetwork_StuYTKNetworkUITests.framework */,
+				491537D7AFD2E7538C85C082 /* Pods_StuYTKNetworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57818DCF294AB24A003CFCF8 /* StuYTKNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57818DFF294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetwork" */;
+			buildPhases = (
+				9F4EE21859DF4394144371F4 /* [CP] Check Pods Manifest.lock */,
+				57818DCC294AB24A003CFCF8 /* Sources */,
+				57818DCD294AB24A003CFCF8 /* Frameworks */,
+				57818DCE294AB24A003CFCF8 /* Resources */,
+				93E2DBD05DD6B042D87CE087 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StuYTKNetwork;
+			productName = StuYTKNetwork;
+			productReference = 57818DD0294AB24A003CFCF8 /* StuYTKNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57818DEA294AB24A003CFCF8 /* StuYTKNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57818E02294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetworkTests" */;
+			buildPhases = (
+				4C8A3A5FA3C4435F142A2CB6 /* [CP] Check Pods Manifest.lock */,
+				57818DE7294AB24A003CFCF8 /* Sources */,
+				57818DE8294AB24A003CFCF8 /* Frameworks */,
+				57818DE9294AB24A003CFCF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57818DED294AB24A003CFCF8 /* PBXTargetDependency */,
+			);
+			name = StuYTKNetworkTests;
+			productName = StuYTKNetworkTests;
+			productReference = 57818DEB294AB24A003CFCF8 /* StuYTKNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57818DF4294AB24A003CFCF8 /* StuYTKNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57818E05294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetworkUITests" */;
+			buildPhases = (
+				98B8B53734A7CDF5CC0D04A3 /* [CP] Check Pods Manifest.lock */,
+				57818DF1294AB24A003CFCF8 /* Sources */,
+				57818DF2294AB24A003CFCF8 /* Frameworks */,
+				57818DF3294AB24A003CFCF8 /* Resources */,
+				C80C162BFED78DDC39795692 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57818DF7294AB24A003CFCF8 /* PBXTargetDependency */,
+			);
+			name = StuYTKNetworkUITests;
+			productName = StuYTKNetworkUITests;
+			productReference = 57818DF5294AB24A003CFCF8 /* StuYTKNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57818DC8294AB24A003CFCF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					57818DCF294AB24A003CFCF8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					57818DEA294AB24A003CFCF8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 57818DCF294AB24A003CFCF8;
+					};
+					57818DF4294AB24A003CFCF8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 57818DCF294AB24A003CFCF8;
+					};
+				};
+			};
+			buildConfigurationList = 57818DCB294AB24A003CFCF8 /* Build configuration list for PBXProject "StuYTKNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57818DC7294AB24A003CFCF8;
+			productRefGroup = 57818DD1294AB24A003CFCF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57818DCF294AB24A003CFCF8 /* StuYTKNetwork */,
+				57818DEA294AB24A003CFCF8 /* StuYTKNetworkTests */,
+				57818DF4294AB24A003CFCF8 /* StuYTKNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57818DCE294AB24A003CFCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57818DE3294AB24A003CFCF8 /* LaunchScreen.storyboard in Resources */,
+				57818DE0294AB24A003CFCF8 /* Assets.xcassets in Resources */,
+				57818DDE294AB24A003CFCF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DE9294AB24A003CFCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DF3294AB24A003CFCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8A3A5FA3C4435F142A2CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StuYTKNetworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E2DBD05DD6B042D87CE087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork/Pods-StuYTKNetwork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork/Pods-StuYTKNetwork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork/Pods-StuYTKNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B8B53734A7CDF5CC0D04A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StuYTKNetwork-StuYTKNetworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4EE21859DF4394144371F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StuYTKNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80C162BFED78DDC39795692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork-StuYTKNetworkUITests/Pods-StuYTKNetwork-StuYTKNetworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork-StuYTKNetworkUITests/Pods-StuYTKNetwork-StuYTKNetworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StuYTKNetwork-StuYTKNetworkUITests/Pods-StuYTKNetwork-StuYTKNetworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57818DCC294AB24A003CFCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A6BEC3294DA1A500A1AFA4 /* WebServerManager.m in Sources */,
+				57818DDB294AB24A003CFCF8 /* ViewController.m in Sources */,
+				57818DD5294AB24A003CFCF8 /* AppDelegate.m in Sources */,
+				57818E0E294B084C003CFCF8 /* MyRequest.m in Sources */,
+				57166AD6294B1E040003DBD1 /* LoginApi.m in Sources */,
+				57818DE6294AB24A003CFCF8 /* main.m in Sources */,
+				57818DD8294AB24A003CFCF8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DE7294AB24A003CFCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57818DF0294AB24A003CFCF8 /* StuYTKNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57818DF1294AB24A003CFCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57818DFA294AB24A003CFCF8 /* StuYTKNetworkUITests.m in Sources */,
+				57818DFC294AB24A003CFCF8 /* StuYTKNetworkUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57818DED294AB24A003CFCF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57818DCF294AB24A003CFCF8 /* StuYTKNetwork */;
+			targetProxy = 57818DEC294AB24A003CFCF8 /* PBXContainerItemProxy */;
+		};
+		57818DF7294AB24A003CFCF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57818DCF294AB24A003CFCF8 /* StuYTKNetwork */;
+			targetProxy = 57818DF6294AB24A003CFCF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57818DDC294AB24A003CFCF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57818DDD294AB24A003CFCF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57818DE1294AB24A003CFCF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57818DE2294AB24A003CFCF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57818DFD294AB24A003CFCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57818DFE294AB24A003CFCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57818E00294AB24A003CFCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7271EBA584A26D9F679538A /* Pods-StuYTKNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StuYTKNetwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57818E01294AB24A003CFCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867436679A514A0FD041A1B5 /* Pods-StuYTKNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StuYTKNetwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57818E03294AB24A003CFCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BA9EA1168B0ACBCDD97D84 /* Pods-StuYTKNetworkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StuYTKNetwork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StuYTKNetwork";
+			};
+			name = Debug;
+		};
+		57818E04294AB24A003CFCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B583B70CA9B421901FFB543B /* Pods-StuYTKNetworkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StuYTKNetwork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StuYTKNetwork";
+			};
+			name = Release;
+		};
+		57818E06294AB24A003CFCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EED928C3EBF6D7CA6B7052 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StuYTKNetwork;
+			};
+			name = Debug;
+		};
+		57818E07294AB24A003CFCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083D533B4A301F4A032DB354 /* Pods-StuYTKNetwork-StuYTKNetworkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h.w.StuYTKNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StuYTKNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57818DCB294AB24A003CFCF8 /* Build configuration list for PBXProject "StuYTKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57818DFD294AB24A003CFCF8 /* Debug */,
+				57818DFE294AB24A003CFCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57818DFF294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57818E00294AB24A003CFCF8 /* Debug */,
+				57818E01294AB24A003CFCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57818E02294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57818E03294AB24A003CFCF8 /* Debug */,
+				57818E04294AB24A003CFCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57818E05294AB24A003CFCF8 /* Build configuration list for PBXNativeTarget "StuYTKNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57818E06294AB24A003CFCF8 /* Debug */,
+				57818E07294AB24A003CFCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57818DC8294AB24A003CFCF8 /* Project object */;
+}
